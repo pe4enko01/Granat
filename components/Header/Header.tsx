@@ -21,7 +21,7 @@ const Header: React.FunctionComponent<HeaderProps> = (props) => {
                 <Image
                     // loader={myLoader}
                     src="/logos.png"
-                    alt="lol"
+                    alt="logo"
                    
                     width={200}
                     height={200}

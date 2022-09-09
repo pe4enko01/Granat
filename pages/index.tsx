@@ -6,13 +6,16 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Fotter'
+import Card from '../components/Card/Card'
+import CardContainer from '../components/CardContainer/CardContainer'
 
 const Home: NextPage = () => {
   return (
     <Provider store={store}>  
 
       <Header/>
-
+      
+     <CardContainer/>
       <Footer/>
     </Provider>
      
