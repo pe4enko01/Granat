@@ -8,17 +8,20 @@ import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Fotter'
 import Card from '../components/Card/Card'
 import CardContainer from '../components/CardContainer/CardContainer'
+import Achievement from '../components/Achievement/Achievement'
+import AchivementContainer from '../components/AchivementContainer/AchivementContainer'
 
 const Home: NextPage = () => {
   return (
-    <Provider store={store}>  
+    <Provider store={store}>
 
-      <Header/>
-      
-     <CardContainer/>
-      <Footer/>
+      <Header />
+
+      <CardContainer />
+      <AchivementContainer />
+      <Footer />
     </Provider>
-     
+
   )
 }
 
