@@ -18,7 +18,7 @@ const AchivementContainer: React.FunctionComponent<IAchivementContainerProps> = 
                             
                                 <Achievement/>
                                 <Achievement/>
-                                <Achievement/>
+                                
                             
                            
                             
